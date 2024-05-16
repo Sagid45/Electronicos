@@ -18,6 +18,11 @@ body {
     margin: 50px auto;
 }
 
+.table th,
+.table td {
+    color: #ffffff; /* Texto blanco */
+}
+
 /* Estilos de títulos */
 h5, .card-title, .form-label {
     color: #ffffff;
