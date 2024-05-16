@@ -20,13 +20,14 @@
                                 </a>
                                 <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                                     <li><a class="dropdown-item" href="empleadodia">Empleado del Día</a></li>
-                                    <li><a class="dropdown-item" href="pagos">Reporte de Pago</a></li>
+                                    <li><a class="dropdown-item" href="pagosdiarios">Reporte de Pago</a></li>
                                 </ul>
                             </li>
                         </ul>
-                          <a href="admin" style="background-color: #ff6600; padding: 12px 24px; border-radius: 20px; text-decoration: none; color: white;" me-2" class="pe-5 mx-1" >Usuarios</a>
-                          <a href="autos" style="background-color: #ff6600; padding: 12px 24px; border-radius: 20px; text-decoration: none; color: white;" me-2" class="pe-5 mx-1">Autos</a>
-                          <a href="#" class="pe-5 mx-1" style="background-color: #ff6600; padding: 12px 24px; border-radius: 20px; text-decoration: none; color: white;">Pagar</a>
+                        <a href="clientes" style="background-color: #ff6600; padding: 12px 24px; border-radius: 20px; text-decoration: none; color: white;" me-2 class="pe-5 mx-1" >Registro</a>
+                          <a href="admin" style="background-color: #ff6600; padding: 12px 24px; border-radius: 20px; text-decoration: none; color: white;" me-2 class="pe-5 mx-1" >Usuarios</a>
+                          <a href="autos" style="background-color: #ff6600; padding: 12px 24px; border-radius: 20px; text-decoration: none; color: white;" me-2 class="pe-5 mx-1">Autos</a>
+                          <a href="historialpagos" class="pe-5 mx-1" style="background-color: #ff6600; padding: 12px 24px; border-radius: 20px; text-decoration: none; color: white;">Pagar</a>
                         <button class="btn btn-danger"  >Cerrar Sesión</button>
                     </div>
                 </div>
