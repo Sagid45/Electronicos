@@ -1,3 +1,4 @@
+
 <?php 
 	session_start();
 	require 'libreria/IFormulario.php';
@@ -7,3 +8,4 @@
 	$p = array();
 	View('registro',$p);
  ?>
+
