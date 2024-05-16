@@ -6,4 +6,4 @@
 
 	$p = array();
 	View('login',$p);
- ?>
+?>

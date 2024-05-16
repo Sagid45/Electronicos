@@ -1,6 +1,7 @@
 <?php
     class FormularioFactory
     {
+
        static function Mostrar($tipo)
        {
             switch($tipo)
