@@ -1,4 +1,5 @@
 /* Estilos generales */
+/* Estilos globales */
 body {
     background-color: #212529;
     color: #ffffff;
@@ -132,5 +133,16 @@ h5, .card-title, .form-label {
 
 .img-medium {
     width: 70%;
-    height: auto
+    height: auto;
+}
+
+.btnAgendar {
+    font-size: 1.2rem;
+    padding: 10px 20px;
+    transition: all 0.3s ease;
+}
+
+.btnAgendar:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }

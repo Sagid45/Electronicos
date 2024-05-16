@@ -15,7 +15,22 @@
                     break;
                 case 'Trabajos': return new FormularioTrabajos();
                     break;
-                
+                case 'Empleados': return new FormularioEmpleados();
+                    break;
+                case 'Admin': return new FormularioAdmin();
+                    break;
+                case 'Clientes': return new FormularioClientes();
+                    break;
+                case 'Autos': return new FormularioAutos();
+                    break;
+                case 'RegistroAutos': return new FormularioRegistroAutos();
+                    break;
+                case 'EmpleadoDia': return new FormularioEmpleadoDia();
+                    break;
+                case 'HistorialPagos': return new FormularioHistorialPagos();
+                    break;
+                case 'PagosDiarios': return new FormularioPagosDiarios();
+                    break;
             }
        }
     }

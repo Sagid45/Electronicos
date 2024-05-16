@@ -84,7 +84,6 @@
 
             <script>
                 document.addEventListener("DOMContentLoaded", function() {
-                    // Funciones para mostrar las tarjetas correspondientes cuando se presiona un botón
                     document.getElementById("btnCarro").addEventListener("click", function() {
                         mostrarTarjeta("tarjetaCarro");
                     });
@@ -97,7 +96,6 @@
                         mostrarTarjeta("tarjetaTractoCamion");
                     });
 
-                    // Función para ocultar todas las tarjetas y mostrar solo la tarjeta deseada
                     function mostrarTarjeta(idTarjeta) {
                         var tarjetas = document.getElementsByClassName("tarjeta");
                         for (var i = 0; i < tarjetas.length; i++) {
@@ -106,10 +104,8 @@
                         document.getElementById(idTarjeta).style.display = "block";
                     }
 
-                    // Manejar el envío del formulario aquí
                     document.getElementById("reservaForm").addEventListener("submit", function(event) {
-                        event.preventDefault(); // Evitar el envío del formulario por ahora, puedes agregar el manejo del envío aquí
-                        alert("Formulario enviado"); // Por ahora solo mostramos una alerta, puedes manejar el envío del formulario como desees
+                        event.preventDefault(); 
                     });
                 });
             </script>
