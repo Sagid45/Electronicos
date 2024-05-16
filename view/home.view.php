@@ -1,9 +1,8 @@
 <?php
-    $login = FormularioFactory::Mostrar('Login');
-    $registro = FormularioFactory::Mostrar('Registro');
+    $home = FormularioFactory::Mostrar('Home');
 ?>
-<div>Bienvenido</div>
-<?php echo $login->Crear(); ?>
+<?php echo $home->Crear(); ?>
 
-<?php echo $registro->Crear(); ?>
+
+
 
