@@ -1,9 +1,9 @@
-<?php
-session_start();
-require 'libreria/IFormulario.php';
+<?php 
+	session_start();
+	require 'libreria/IFormulario.php';
 	require 'libreria/FormularioLogin.php';
+	require 'libreria/FormularioFactory.php';
 
-
-$p = array();
-View('Login',$p);
+	$p = array();
+	View('login',$p);
 ?>
