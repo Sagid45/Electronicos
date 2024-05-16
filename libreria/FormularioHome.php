@@ -16,8 +16,7 @@
                     </div>
                 <div class="pe-1 d-flex justify-content-end collapse navbar-collapse" id="navbarNavAltMarkup2">
                   <div class="navbar-nav">
-                    <a class="nav-link active" aria-current="page" href="home">Iniciar Sesión</a>
-                    <a class="nav-link" href="nosotros">Registrarse</a>
+                    <a class="nav-link active" aria-current="page" href="login">Iniciar Sesión</a>
                       </div>
                     </div>
                   </div>
@@ -27,7 +26,8 @@
             <div class="contenedor" id="home" style="position: relative; width: 100%; height: 49vw; max-width: 100vw; max-height: 99.78vh; background-color: darkgrey;">
                 <img src="images/fondo.jpg" style="object-fit: cover; width: 100%; height: 100%;" alt="fondo">
                 <div class="bottom-right" style="position: absolute; bottom: 10%; right: 5%; padding: 10px;">
-                    <button class="btn btn-primary btnAgendar">Agendar Cita</button>
+                    <a href="reserva" class="btn btnAgendar" style="background-color: #ff6600; font-size: 1.2rem; padding: 12px 24px; border-radius: 20px; text-decoration: none; color: white;">Agendar Cita</a>
+
                 </div>
             </div>
             <div>
@@ -57,7 +57,7 @@
 
                     </div>
                     <div class="col-4 mt-5 ms-5 me-5">
-                        <img src="images/logo.jpg" class="d-block img-medium" alt="Carro">
+                        <img src="images/lavado.jpg" class="d-block img-medium" alt="Carro">
                     </div>
                 </div>
                 <div class="row" id="servicios">
