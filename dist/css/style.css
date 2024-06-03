@@ -1,0 +1,204 @@
+.addProduct {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #030439;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container2 {
+    font-size: 125%;
+    width: 20%;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin: 0 auto;
+}
+
+.TituloProduct{
+    background-color: #0091d0;
+    color: white;
+    padding: 4%;
+    margin-top: 0;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+form {
+    text-align: left;
+    font-size: 115%;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+label { 
+    display: block;
+    margin-top: 20px;
+}
+
+input.txtNombre{
+    font-size: 100%;
+    width: calc(100% - 10%);
+    padding: 4%;
+    margin-top: 2%;
+    border: 1px solid #767676;
+    border-radius: 5px;
+    box-sizing: border-box;
+    background-color: #ffffff;
+}
+#nombre::placeholder {
+    color: gray; 
+    font-style: italic; 
+}
+
+textarea.txtDes{
+    font-size: 100%;
+    width: calc(100% - 10%);
+    padding: 10%;
+    margin-top: 2%;
+    border: 1px solid #767676;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+#descripcion.txtDes::placeholder {
+    color: gray; 
+    font-style: italic; 
+  }
+
+input.txtPrecio{
+    font-size: 100%;
+    width: calc(100% - 10%);
+    padding: 4%;
+    margin-top: 2%;
+    border: 1px solid #767676;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+#precio::placeholder {
+    color: gray;
+    font-style: italic;
+  }
+
+button.btn-guardar {
+    font-size: 100%;
+    padding: 3% 5%;
+    margin-top: 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    background-color: #4CAF50;
+    color: white;
+}
+
+button.btn-cancelar {
+    font-size: 100%;
+    padding: 3% 5%;
+    margin-top: 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    background-color: #f44336;
+    color: white;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+.txtDes {
+    height: 100px;
+    resize: vertical;
+}
+
+.containerxd {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 95%;
+    padding: 0 2%;
+}
+
+.product-list {
+    display: grid;
+    grid-template-columns: repeat(3, 30%);
+    gap: 2%;
+    width: 100%;
+    justify-content: center;
+}
+
+.product-card {
+    background-color: #a96d00;
+    color: #000;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    box-sizing: border-box;
+    font-size: 150%;
+}
+
+.product-card h2 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.product-card p {
+    margin-bottom: 10px;
+    font-size: 0.9em;
+}
+
+.button-group {
+    display: flex;
+    justify-content: space-between;
+    gap: 5px;
+}
+
+.btn-agregar {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.btn-eliminar, .btn-modificar {
+    background-color: #f44336;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-size: 0.9em;
+}
+
+.btn-modificar {
+    background-color: #0091d0;
+    margin-left: 5px;
+}
+
+.btn-eliminar:hover, .btn-modificar:hover, .btn-agregar:hover {
+    background-color: #555;
+}
+
+@media (max-width: 1024px) {
+    .product-list {
+        grid-template-columns: repeat(2, 45%);
+    }
+}
+
+@media (max-width: 768px) {
+    .product-list {
+        grid-template-columns: repeat(1, 90%);
+    }
+}
